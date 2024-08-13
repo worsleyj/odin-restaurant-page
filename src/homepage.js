@@ -19,4 +19,4 @@ function makeHomePage() {
     console.log("other.js");
 }
 
-export {makeHomePage}
+export {makeHomePage};

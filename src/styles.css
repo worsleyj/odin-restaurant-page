@@ -8,10 +8,16 @@
     align-items: center;
 }
 
+nav {
+    background-color: #292524;
+}
+
 h1 {
     text-align: center;
     font-size: 64px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: #292524;
 }
 p {
     font-weight: bolder;
@@ -19,10 +25,25 @@ p {
     padding: 25px;
     margin: 25px;
     border-radius: 12px;
-    background-color: whitesmoke;
+    background-color: #292524;
+    color: white;
 }
 
 img {
     width: 35%;
     height: 25%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    background-color: #f97316;
+}
+
+li {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #f97316;
 }

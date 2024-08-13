@@ -2,6 +2,7 @@ import "./styles.css";
 import "./reset.css";
 import { makeHomePage } from "./homepage";
 import { makeMenuPage } from "./menupage";
+import { makeAboutPage} from "./aboutpage";
 
 const homeButton = document.querySelector(".home-button");
 const menuButton = document.querySelector(".menu-button");
@@ -19,5 +20,7 @@ menuButton.addEventListener("click", () => {
 
 aboutButton.addEventListener("click", () => {
     content.textContent = "";
-    makeHomePage();
+    makeAboutPage();
 })
+
+makeHomePage();

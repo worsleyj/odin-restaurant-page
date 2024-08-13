@@ -10,8 +10,21 @@
 
 nav {
     background-color: #292524;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
 }
 
+button {
+    margin-top: 12px;
+    padding: 12px 48px; 
+    border-radius: 12px;
+    border: none;
+}
+
+button:hover {
+    opacity: .7;
+}
 h1 {
     text-align: center;
     font-size: 64px;
@@ -32,6 +45,8 @@ p {
 img {
     width: 35%;
     height: 25%;
+    padding: 12px;
+    border-radius: 12%;
 }
 
 ul {

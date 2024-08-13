@@ -1,3 +1,28 @@
 * {
     background-color: slategray;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    padding-bottom: 50px;
+}
+p {
+    font-weight: bolder;
+    font-size: bold;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 35%;
+    height: 25%;
+}
